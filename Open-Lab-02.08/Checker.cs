@@ -6,7 +6,10 @@ namespace Open_Lab_02._08
     {
         public bool IsEmpty(string str)
         {
-            throw new NotImplementedException();
+            bool plnealeboprazdne;
+            plnealeboprazdne = string.IsNullOrEmpty(str);
+            return plnealeboprazdne;
+
         }
     }
 }
